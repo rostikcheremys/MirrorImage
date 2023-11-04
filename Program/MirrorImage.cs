@@ -2,6 +2,7 @@
 using System.IO;
 using System.Drawing;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
 
 namespace Program
 {
@@ -31,24 +32,24 @@ namespace Program
 
                             image.Save(newFilePath, System.Drawing.Imaging.ImageFormat.Gif);
 
-                            Console.WriteLine($"Зображення '{filePath}' успiшно оброблено i збережено як '{newFileName}'.");
+                            MessageBox.Show($"Зображення '{filePath}' успiшно оброблено i збережено як '{newFileName}'.");
                         }
                         else
                         {
-                            Console.WriteLine($"Файл '{filePath}' не є графiчним зображенням.");
+                            MessageBox.Show($"Файл '{filePath}' не є графiчним зображенням.");
                         }
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine($"Помилка при обробцi файлу '{filePath}': {ex.Message}");
+                        MessageBox.Show($"Помилка при обробцi файлу '{filePath}': {ex.Message}");
                     }
                 }
 
-                Console.WriteLine("Програма завершила роботу.");
+                MessageBox.Show("Програма завершила роботу.");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Помилка: {ex.Message}");
+                MessageBox.Show($"Помилка: {ex.Message}");
             }
         }
     }
