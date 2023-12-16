@@ -32,11 +32,11 @@ namespace Program
 
                             image.Save(newFilePath, System.Drawing.Imaging.ImageFormat.Gif);
 
-                            MessageBox.Show($"Зображення '{filePath}' успiшно оброблено i збережено як '{newFileName}'.");
+                            Console.WriteLine($"Зображення '{filePath}' успiшно оброблено i збережено як '{newFileName}'.");
                         }
                         else
                         {
-                            MessageBox.Show($"Файл '{filePath}' не є графiчним зображенням.");
+                            Console.WriteLine($"Файл '{filePath}' не є графiчним зображенням.");
                         }
                     }
                     catch (Exception ex)
@@ -45,7 +45,7 @@ namespace Program
                     }
                 }
 
-                MessageBox.Show("Програма завершила роботу.");
+                Console.WriteLine("Програма завершила роботу.");
             }
             catch (Exception ex)
             {

@@ -7,3 +7,13 @@ D:\Programming\C#\ООП\laba_3\Task_7\Program\Program\obj\Debug\Program.pdb
 D:\Programming\C#\ООП\laba_3\Task_7\Program\Program\bin\Debug\Program.exe.config
 D:\Programming\C#\ООП\laba_3\Task_7\Program\Program\bin\Debug\System.Drawing.Pictograms.dll
 D:\Programming\C#\ООП\laba_3\Task_7\Program\Program\obj\Debug\Program.csproj.CopyComplete
+D:\Programming\C#\ООП\MirrorImage\Program\bin\Debug\Program.exe.config
+D:\Programming\C#\ООП\MirrorImage\Program\bin\Debug\Program.exe
+D:\Programming\C#\ООП\MirrorImage\Program\bin\Debug\Program.pdb
+D:\Programming\C#\ООП\MirrorImage\Program\bin\Debug\System.Drawing.Pictograms.dll
+D:\Programming\C#\ООП\MirrorImage\Program\bin\Debug\System.Drawing.Primitives.dll
+D:\Programming\C#\ООП\MirrorImage\Program\obj\Debug\Program.csproj.AssemblyReference.cache
+D:\Programming\C#\ООП\MirrorImage\Program\obj\Debug\Program.csproj.CoreCompileInputs.cache
+D:\Programming\C#\ООП\MirrorImage\Program\obj\Debug\Program.csproj.CopyComplete
+D:\Programming\C#\ООП\MirrorImage\Program\obj\Debug\Program.exe
+D:\Programming\C#\ООП\MirrorImage\Program\obj\Debug\Program.pdb
