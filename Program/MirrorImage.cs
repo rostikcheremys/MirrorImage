@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -30,7 +31,7 @@ namespace Program
                             string newFileName = $"{fileName}-mirrored.gif";
                             string newFilePath = Path.Combine(folderPath, newFileName);
 
-                            image.Save(newFilePath, System.Drawing.Imaging.ImageFormat.Gif);
+                            image.Save(newFilePath, ImageFormat.Gif);
 
                             Console.WriteLine($"Зображення '{filePath}' успiшно оброблено i збережено як '{newFileName}'.");
                         }
